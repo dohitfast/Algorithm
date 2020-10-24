@@ -22,22 +22,18 @@ int main() {
 
 	int min_value = arr[0];
 	for (int i = 0; i < max_index; i++) {
-		if (arr[i] < min_value) {
+		if (arr[i] < min_value) 
 			answer += min_value - arr[i];
-		}
-		else {
+		else 
 			min_value = arr[i];
-		}
 	}
 
 	min_value = arr[w - 1];
 	for (int i = w - 2; i > max_index; i--) {
-		if (arr[i] < min_value) {
+		if (arr[i] < min_value) 
 			answer += min_value - arr[i];
-		}
-		else {
+		else 
 			min_value = arr[i];
-		}
 	}
 
 	cout << answer;
