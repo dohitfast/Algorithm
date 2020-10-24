@@ -12,6 +12,11 @@
 
 <br>
 
+#### :white_check_mark: 커밋 메세지 형식
+`문제 고른날짜`
+
+<br>
+
 #### :white_check_mark: 규칙
 
 + 일주일에 세 문제씩 꼭 풀기
