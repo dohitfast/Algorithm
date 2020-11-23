@@ -41,12 +41,11 @@ public class BOJ1966 {
 
 				if (wanted.priority == cur.priority) {
 					q.poll();
-
 					if (cur.index == m) {
 						sb.append(cnt + "\n");
 					}
 					cnt++;
-
+					
 				} else {
 					data.add(new Info1966(cur.index, cur.priority));
 				}
